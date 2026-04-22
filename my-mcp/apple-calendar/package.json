@@ -1,0 +1,20 @@
+{
+  "name": "apple-calendar-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Apple Calendar — add, list, and read events via AppleScript and EventKit",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "setup": "tsx setup.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
